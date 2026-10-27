@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfólio Gustavo Guanabara</title>
+
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+
+    <script src="https://kit.fontawesome.com/5a4f01a369.js" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <nav id="menu" aria-label="Menu principal">
+            <ul>
+                <li>
+                    <a href="#ficha" aria-label="Início">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#skills" aria-label="Minhas skills">
+                        <i class="fa-solid fa-brain"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#formacao" aria-label="Formação">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#projetos" aria-label="Projetos">
+                        <i class="fa-solid fa-trowel-bricks"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <button id="tema" type="button" aria-label="Alternar tema">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Perfil -->
+        <section id="ficha">
+
+            <img src="imagens/guanabara-perfil.jpg" alt="Foto de Gustavo Guanabara" class="foto">
+
+            <h1>Gustavo Guanabara</h1>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Omnis autem vel voluptate voluptatem, officiis quasi, a
+                illum accusamus totam facere quia distinctio inventore,
+                unde explicabo sequi? Iusto error recusandae ad.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Placeat fugiat numquam quas voluptatibus odit. Quos,
+                porro corporis quaerat necessitatibus incidunt rerum
+                mollitia suscipit, ipsa recusandae ab similique enim?
+                Voluptates, quod!
+            </p>
+
+            <div id="social" aria-label="Redes sociais">
+
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Site pessoal">
+                    <i class="fa-solid fa-globe"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- Detalhes -->
+        <section id="detalhes">
+
+            <!-- Vídeo de apresentação -->
+            <article class="video-container">
+
+                <iframe src="https://www.youtube.com/embed/tNobiwuAaAg?si=Cv8D9UbXArj66N6P"
+                    title="Vídeo de apresentação" loading="lazy" allowfullscreen>
+                </iframe>
+
+            </article>
+
+            <!-- Skills -->
+            <article id="skills">
+
+                <h2>
+                    <i class="fa-solid fa-brain"></i>
+                    Minhas Skills
+                </h2>
+
+                <div id="skill-container">
+
+                    <!-- HTML5 -->
+                    <div class="item">
+
+                        <div class="info">
+                            <span class="nome">
+                                <i class="fa-solid fa-code"></i>
+                                HTML5
+                            </span>
+
+                            <span class="porcent">90%</span>
+                        </div>
+
+                        <div class="barra" role="progressbar" aria-label="HTML5" aria-valuenow="90" aria-valuemin="0"
+                            aria-valuemax="100">
+
+                            <div class="progresso" style="width: 90%;">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- CSS3 -->
+                    <div class="item">
+
+                        <div class="info">
+                            <span class="nome">
+                                <i class="fa-solid fa-code"></i>
+                                CSS3
+                            </span>
+
+                            <span class="porcent">80%</span>
+                        </div>
+
+                        <div class="barra" role="progressbar" aria-label="CSS3" aria-valuenow="80" aria-valuemin="0"
+                            aria-valuemax="100">
+
+                            <div class="progresso" style="width: 80%;">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- JavaScript -->
+                    <div class="item">
+
+                        <div class="info">
+                            <span class="nome">
+                                <i class="fa-solid fa-code"></i>
+                                JavaScript
+                            </span>
+
+                            <span class="porcent">75%</span>
+                        </div>
+
+                        <div class="barra" role="progressbar" aria-label="JavaScript" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100">
+
+                            <div class="progresso" style="width: 75%;">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Comunicação -->
+                    <div class="item">
+
+                        <div class="info">
+                            <span class="nome">
+                                <i class="fa-solid fa-comments"></i>
+                                Comunicação
+                            </span>
+
+                            <span class="porcent">95%</span>
+                        </div>
+
+                        <div class="barra" role="progressbar" aria-label="Comunicação" aria-valuenow="95"
+                            aria-valuemin="0" aria-valuemax="100">
+
+                            <div class="progresso" style="width: 95%;">
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="item">
+
+                        <div class="info">
+                            <span class="nome">
+                                <i class="fa-solid fa-comments"></i>
+                                Trabalho em Equipe
+                            </span>
+
+                            <span class="porcent">90%</span>
+                        </div>
+
+                        <div class="barra" role="progressbar" aria-label="Comunicação" aria-valuenow="95"
+                            aria-valuemin="0" aria-valuemax="100">
+
+                            <div class="progresso" style="width: 90%;">
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="item">
+
+                        <div class="info">
+                            <span class="nome">
+                                <i class="fa-solid fa-comments"></i>
+                                Adaptalidade
+                            </span>
+
+                            <span class="porcent">85%</span>
+                        </div>
+
+                        <div class="barra" role="progressbar" aria-label="Comunicação" aria-valuenow="95"
+                            aria-valuemin="0" aria-valuemax="100">
+
+                            <div class="progresso" style="width: 85%;">
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="item">
+
+                        <div class="info">
+                            <span class="nome">
+                                <i class="fa-solid fa-comments"></i>
+                                Liderança
+                            </span>
+
+                            <span class="porcent">90%</span>
+                        </div>
+
+                        <div class="barra" role="progressbar" aria-label="Comunicação" aria-valuenow="95"
+                            aria-valuemin="0" aria-valuemax="100">
+
+                            <div class="progresso" style="width: 90%;">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </article>
+
+            <!-- Formação -->
+            <article id="formacao">
+
+                <h2>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Formação
+                </h2>
+
+                <!-- Adicione aqui seus cursos e formações -->
+
+            </article>
+
+            <!-- Projetos -->
+            <article id="projetos">
+
+                <h2>
+                    <i class="fa-solid fa-trowel-bricks"></i>
+                    Projetos Desenvolvidos
+                </h2>
+
+                <!-- Adicione aqui seus projetos -->
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+
+</html>
